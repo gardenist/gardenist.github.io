@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>20191203</title>
+
+    <style>
+        input, button {
+            font-size: 1.5em;
+        }
+
+        input {
+            width: 400px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <label for="onlyNumber">
+        <h1>1. 숫자로만 구성된 문자열</h1>
+        <input id="onlyNumber" data-pattern="onlyNumber" placeholder="숫자를 입력해 주세요.">
+        <button class="validate" data-for="onlyNumber">확인</button>
+    </label>
+
+    <label for="phoneNumber">
+        <h1>2. 전화번호</h1>
+        <input id="phoneNumber" data-pattern="phoneNumber" placeholder="전화번호를 입력해 주세요.">
+        <button class="validate" data-for="phoneNumber">확인</button>
+    </label>
+    
+    <label for="ip">
+            <h1>3. IP 주소</h1>
+            <input id="ip" data-pattern="ip" placeholder="IP 주소를 입력해 주세요.">
+            <button class="validate" data-for="ip">확인</button>
+    </label>
+
+    <label for="email">
+        <h1>4. 이메일 주소</h1>
+        <input id="email" data-pattern="email" placeholder="이메일 주소를 입력해 주세요.">
+        <button class="validate" data-for="email">확인</button>
+    </label>
+
+    <label for="url">
+        <h1>5. URL 형식</h1>
+        <input id="url" data-pattern="url" placeholder="URL을 입력해 주세요.">
+        <button class="validate" data-for="url">확인</button>
+    </label>
+
+    <script src="data:text/javascript;base64,KGZ1bmN0aW9uKCkgewogICAgY29uc29sZS5sb2coJ2xvYWQnKTsKICAgIGxldCByZWdleHAgPSB7CiAgICAgICAgb25seU51bWJlcjogL15cZCskLywKICAgICAgICBwaG9uZU51bWJlcjogL14wMVxkLVxkezMsNH0tXGR7NH0kLywKICAgICAgICBpcDogL15bMTJdP1xkezEsMn0uWzEyXT9cZHsxLDJ9LlsxMl0/XGR7MSwyfS5bMTJdP1xkezEsMn0kLywKICAgICAgICBlbWFpbDogL15bMC05XC5hLXpBLVpcLV9dK0BcdytcLlx3KyhcLlx3Kyk/JC8sCiAgICAgICAgdXJsOiAvXmh0dHBzPzpcL1wvKFx3K1wuKT9cdytcLlx3KyhcLlx3Kyk/KFwvXHcrKSooXD8oXHcrPVx3KikqKT8kLwogICAgfTsKCiAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCcudmFsaWRhdGUnKS5mb3JFYWNoKGZ1bmN0aW9uKGJ1dHRvbikgewogICAgICAgIGJ1dHRvbi5vbmNsaWNrID0gZnVuY3Rpb24oKSB7CiAgICAgICAgICAgIGxldCB0eXBlID0gYnV0dG9uLmRhdGFzZXQuZm9yOwogICAgICAgICAgICBsZXQgaW5wdXQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCh0eXBlKTsKICAgICAgICAgICAgaWYocmVnZXhwW3R5cGVdLnRlc3QoaW5wdXQudmFsdWUpKSB7CiAgICAgICAgICAgICAgICBpbnB1dC5zdHlsZS5iYWNrZ3JvdW5kQ29sb3IgPSAnbGlnaHRncmVlbic7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBpbnB1dC5zdHlsZS5iYWNrZ3JvdW5kQ29sb3IgPSAncmVkJzsKICAgICAgICAgICAgfQogICAgICAgIH07CiAgICB9KTsKfSkoKTs="></script>
+</body>
+</html>
