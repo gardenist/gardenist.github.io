@@ -1,0 +1,18 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <input id="message"> <button id="buttonLength">몇 글자?</button>
+        <script type="module">
+            import { getLength } from './util.js';
+
+            import { getLength as getLineLength } from './graphic.js';
+            
+            document.getElementById('buttonLength').onclick = function() {
+                var message = document.getElementById('message').value;
+
+                alert(getLength(message));
+            }
+        </script>
+    </body>
+</html>
